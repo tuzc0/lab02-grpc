@@ -1,0 +1,25 @@
+@'
+
+# Maquina virtual local
+.vagrant/
+Vagrantfile
+
+# Entornos virtuales y cache de Python
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Archivos generados desde video_service.proto
+video_service_pb2.py
+video_service_pb2_grpc.py
+
+# Videos utilizados durante las pruebas
+*.mp4
+*.avi
+*.mkv
+*.mov
+videos/*
+!videos/.gitkeep
+'@ | Add-Content -Path .gitignore

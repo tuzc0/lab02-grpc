@@ -1,0 +1,6 @@
+grpcio==1.84.0
+grpcio-tools==1.84.0
+numpy==2.2.6
+opencv-python==5.0.0.93
+protobuf==7.36.2
+typing_extensions==4.16.0
